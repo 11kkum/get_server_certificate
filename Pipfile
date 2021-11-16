@@ -5,10 +5,13 @@ name = "pypi"
 
 [packages]
 pyopenssl = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
 [scripts]
 get = 'python3 get_server_certificate.py'
+retrieve = 'python3 get_pubKey_from_cert.py'
+
 [requires]
 python_version = "3.8"
